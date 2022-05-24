@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+   background: #2f1275 linear-gradient( 115deg, rgba(0, 0, 0, 0.8), rgba(6, 6, 49, 0.7) );
+
+}
+
+#main #cabecalho{
+    margin: 10px auto;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    text-align: center;
+    font-size: 4em;
+}
+
+#main #cabecalho #code{
+    
+    font-size: 0.5em;
+    color: rgb(143, 142, 142);
+}
+#main .conteudo{
+    margin-left: 20%;
+  
+   
+
+}
+ #trabalho, #portifolio{
+     display:inline-block;
+   
+
+
+  
+   
+    
+    
+}
+a{
+    border: white 1px solid;
+    border-radius: 2em;
+    margin: 6em;
+    margin-right:6em ;
+    float: right;
+}
+img{
+    padding: 1em;
+}
