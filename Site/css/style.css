@@ -1,17 +1,26 @@
 *{
+ 
     margin: 0;
     padding: 0;
 }
 
 body{
 
-   background: #2f1275 linear-gradient( 115deg, rgba(0, 0, 0, 0.8), rgba(6, 6, 49, 0.7) );
+   background: #0e025c linear-gradient( 115deg, rgba(0, 0, 0, 0.8), rgba(6, 6, 49, 0.7) );
+   font-family: monospace;
+   font-weight: normal;
 
+
+}
+#main{
+    height: 100%;
 }
 
 #main #cabecalho{
-    margin: 10px auto;
-    color: white;
+    height: px;
+    padding: 0;
+    margin: auto ;
+    background: none;
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
     text-align: center;
@@ -19,12 +28,18 @@ body{
 }
 
 #main #cabecalho #code{
+     font-size: 50px;
+    color: white;
+    transition: 1.0s;
     
-    font-size: 0.5em;
-    color: rgb(143, 142, 142);
+    padding: 5px 50px;
+    border-radius: 2em;
+    float: none;
 }
 #main .conteudo{
-    margin-left: 20%;
+   
+    
+    margin-left:27%;
   
    
 
@@ -39,13 +54,93 @@ body{
     
     
 }
-a{
-    border: white 1px solid;
+#main .conteudo a{
+    clear: both;
+    transition: 1.6s;
+    padding:0 2em;
+   /* border: white 1px solid;*/
     border-radius: 2em;
-    margin: 6em;
-    margin-right:6em ;
+    margin: 6em 1.5em;
     float: right;
+    text-decoration: none;
 }
-img{
-    padding: 1em;
+    
+#main .conteudo  a:hover{
+        clear: both;
+        background:linear-gradient( 115deg,rgba(1, 1, 18, 0.7) , rgba(6, 6, 49, 0.7)) ;
+        transition: 1.6s;
+        padding:0 2em;
+        
+        border-radius: 2em;
+        margin: 6em;
+        float: right;
+        text-decoration: none;
+
 }
+#main #cabecalho a{
+    float: none;
+    margin: 20px 0;
+    padding: 0;
+    display: inline-block;
+    text-decoration: none;
+
+    background:linear-gradient( 115deg,  rgba(6, 6, 49, 0.702),rgba(1, 1, 18, 0.7)) ;
+    border-radius: 5em;
+   
+    transition:1.0s;
+}
+#main #cabecalho a :hover{
+    float: none;
+    background:linear-gradient( 115deg,rgba(255, 255, 255, 0.921) , rgba(255, 255, 255, 0.537) ) ;
+    margin: 0 auto;
+    
+
+    border-radius: 3em !important;
+
+    transition: 1.5s;    
+    float: none;
+    text-decoration: none;
+    color:rgba(6, 6, 49, 0.94) !important ;
+    font-size: 50px !important;
+   
+
+}
+#main .conteudo img{
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.texto-ancora{
+    
+    
+    padding:0 15px 5px 10px;
+    color: white;
+    margin: 0px  auto;
+    text-align: center;
+}
+
+#rdp{
+    height: 50px;
+    clear: both;
+    float: left;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+
+}
+.rdp{
+    background:  #0e025c linear-gradient( 115deg, rgba(0, 0, 0, 0.8), rgba(6, 6, 49, 0.7) );
+    clear: both;
+    float: left;
+    width: 100%;
+    filter: url("/imagens/instagram.png");
+
+    text-align: center;
+    
+}
+h4{
+    
+    color: white;
+}
+
