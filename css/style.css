@@ -6,7 +6,7 @@
 
 body{
 
-   background: #0e025c linear-gradient( 115deg, rgba(0, 0, 0, 0.8), rgba(6, 6, 49, 0.7) );
+   background: #0e025c linear-gradient( 115deg, #000000cc, #060631b3 );
    font-family: monospace;
    font-weight: normal;
 
