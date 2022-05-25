@@ -12,6 +12,12 @@ body{
 
 
 }
+#inputs{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #main{
     height: 100%;
 }
@@ -144,3 +150,197 @@ h4{
     color: white;
 }
 
+/*formulario*/
+
+.boxInput,.boxInput1{
+    padding: 1em;
+    color:white;
+
+
+}
+.boxInput label{
+    font-size: 1.5em;
+    margin-left: 0.2em;
+    
+    
+}
+.boxInput input, select, option {
+    width: 35em;
+    height: 3em;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0;
+    margin-top: 0.2em;
+}
+input:focus{
+    
+    padding: 0.1px;
+}
+.boxInput1 label{
+    
+    font-size: 1.3em;
+    
+}
+
+.boxInput1 label input{
+    margin: 0.2em 1em;
+    width: 1em;
+}
+textarea{
+    margin-left: 0.4em ;
+    padding: 2em;
+    width: 80%;
+
+}
+option:disabled{
+    color: rgb(215, 210, 210);
+}
+
+
+
+
+fieldset{
+    background: #0e025c linear-gradient( 115deg, #060631b3,#000000d7  );
+
+    border: none;
+    border-radius: 1em;
+    margin-bottom: 3em;
+}
+input::placeholder{
+    text-align: center;
+}
+.boxInput3{
+    
+   margin-left: 45%;
+    border: none;
+    border-radius: 1em;
+    width: 6em;
+    
+}
+
+
+/* portifólio*/
+
+#conteudo3{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border:none;
+    border-radius: 0.7em;
+
+   
+    margin: 8em auto;
+
+}
+.conteudo3 a{
+    width: 0%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.janela1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+
+
+    float: left;
+    border: 1px solid rgba(255, 255, 255, 0.401);
+    border-radius: 0.5em;
+    margin: 20px;
+    width: 600px;
+    height: 337px;
+    background: #060126d1 linear-gradient( 115deg, #080839b3,#000000d7  );
+    
+}
+
+a .janela1:hover{
+    
+    font-size: 0;
+    
+    
+    margin: 20px;
+    
+    background: url("../imagens/projeto_unes.png") center;
+    border: 1px solid rgba(255, 255, 255, 0.401);
+    border-radius: 1em;
+} 
+
+
+
+.janela2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+
+
+    float: left;
+    border: 1px solid rgba(255, 255, 255, 0.401);
+    border-radius: 0.5em;
+    margin: 20px;
+    width: 600px;
+    height: 337px;
+    background: #060126d1 linear-gradient( 115deg, #080839b3,#000000d7  );
+    
+}
+
+a .janela2:hover{
+    
+    font-size: 0;
+    
+    
+    margin: 20px;
+    
+    background: url("../imagens//Anna_Bella.png") center;
+    border: 1px solid rgba(255, 255, 255, 0.401);
+    border-radius: 1em;
+} 
+
+
+.janela3{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+
+
+    float: left;
+    border: 1px solid rgba(255, 255, 255, 0.401);
+    border-radius: 0.5em;
+    margin: 20px;
+    width: 600px;
+    height: 337px;
+    background: #060126d1 linear-gradient( 115deg, #080839b3,#000000d7  );
+    
+}
+
+a .janela3:hover{
+    
+    font-size: 0;
+    
+    
+    margin: 20px;
+    
+    background: url("../imagens/Tec_Blog.png") center;
+    border: 1px solid rgba(255, 255, 255, 0.401);
+    border-radius: 1em;
+} 
+a .janela3:hover,a .janela2:hover,a .janela1:hover,a .janela1,a .janela2, a .janela3{
+
+    transition: 0.5s;
+    margin: 0em;
+}
